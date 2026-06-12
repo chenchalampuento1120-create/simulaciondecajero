@@ -103,6 +103,14 @@ public class Progracajero {
    // deposito del dinero
    public static void depositar_dinero(){
        
+       while(true){
+        System.out.println("Ingrese el monto a depositar:");
+        
+        if(!sc.hasNextDouble()){
+            System.out.println("Error: debe ingresar un numero.");
+            sc.next(); //Limpia la entrada incorrecta
+        continue;
+        }
        
    }
     
