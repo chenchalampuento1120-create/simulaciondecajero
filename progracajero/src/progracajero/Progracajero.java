@@ -118,8 +118,19 @@ public class Progracajero {
             System.out.println("No se permiten montos negativos o cero");
             continue;//Continua hasta que ingrese lo que tenga que depositar, si lee esto vamos dos ing 
         }
+
+        saldo += deposito;
+
+        System.out.println("Deposito realizado correctamente");
+        System.out.println("Saldo actual: $" + saldo);
+        
+        break;//Sale del cilco y lo cierra PONGAN BACHATA
+       }
+    }
        
-   }
+}
+       
+
     
     
 
