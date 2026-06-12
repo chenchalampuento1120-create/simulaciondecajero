@@ -111,6 +111,13 @@ public class Progracajero {
             sc.next(); //Limpia la entrada incorrecta
         continue;
         }
+
+        double deposito = sc.nextDouble();
+
+        if(deposito <= 0){
+            System.out.println("No se permiten montos negativos o cero");
+            continue;//Continua hasta que ingrese lo que tenga que depositar, si lee esto vamos dos ing 
+        }
        
    }
     
