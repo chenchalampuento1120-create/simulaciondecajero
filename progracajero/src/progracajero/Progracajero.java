@@ -11,14 +11,13 @@ import java.util.Scanner;
  * @author PC
  */
 public class Progracajero {
-
-    /**
-     * @param args the command line arguments
-     */
+    
+    static Scanner sc = new Scanner(System.in);
+    static double saldo = 1000;
+    
     public static void main(String[] args) {
         // TODO code application logic here
-       
-     Scanner sc = new Scanner(System.in);
+        
         //algoritmo para simular cajero automatico
         int clave = 1234;
         int intentos =3;
@@ -88,6 +87,10 @@ public class Progracajero {
        System.out.println("ingrese la cantidad a retirar:");
        double retiro = sc.nextDouble();
        
+       if (retiro > 0 && retiro <= saldo) {
+      
+           
+       }
        
        
        
