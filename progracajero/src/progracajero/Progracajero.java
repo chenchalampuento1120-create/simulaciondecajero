@@ -82,8 +82,7 @@ public class Progracajero {
     }
     // consultar saldo actual
    public static void consultar_saldo(){
-    double saldo = 1000;
-         System.out.println("Saldo disponible: $" + saldo);
+        System.out.println("Saldo disponible: $" + saldo);
     }
    // retirar el dinero de la cuenta
    public static void retirar_dinero(){
@@ -98,16 +97,12 @@ public class Progracajero {
            System.out.println("Saldo insuficiente");
       
            
-       }
-       
-       
-       
-       
+       }  
    }
+   
    // deposito del dinero
    public static void depositar_dinero(){
        
-   }
        
    }
     
