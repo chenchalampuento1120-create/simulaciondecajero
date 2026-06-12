@@ -32,8 +32,8 @@ public class Progracajero {
         while(intentos>0 && intentos <= 3){ 
             int clave_ingresada = sc.nextInt();
             if (clave_ingresada == clave) {
-                System.out.println("bienvenido al cajero");
-                System.out.println("selecciona una opción: ");
+                System.out.println("BIENVENIDO AL CAJERO AUTOMATICO");
+                System.out.println("Selecciona una opci0n: ");
                 do {
                     System.out.println("1. consultar saldo");
                     System.out.println("2. retirar dinero");
