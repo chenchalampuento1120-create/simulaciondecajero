@@ -47,6 +47,7 @@ public class Progracajero {
                     switch(opc){
                         case 1:
                             System.out.println("Consultar Saldo");
+                            consultar_saldo();
                             
                         case 2: 
                             System.out.println("Retirar Dinero");
@@ -76,8 +77,11 @@ public class Progracajero {
         }
     }
    public static void consultar_saldo(){
+    double saldo = 1000;
+         System.out.println("Saldo disponible: $" + saldo);
+    }
        
    }
     
     
-}
+
