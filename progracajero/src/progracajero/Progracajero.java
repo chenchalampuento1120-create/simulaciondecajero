@@ -47,14 +47,17 @@ public class Progracajero {
                         case 1:
                             System.out.println("Consultar Saldo");
                             consultar_saldo();
+                            break;
                             
                         case 2: 
                             System.out.println("Retirar Dinero");
                             retirar_dinero();
+                            break;
                             
                         case 3: 
                             System.out.println("Depositar dinero");
                             depositar_dinero();
+                            break;
                             
                         case 4:
                             System.out.println("Sistema Cerrado");
