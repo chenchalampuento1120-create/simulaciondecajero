@@ -51,6 +51,7 @@ public class Progracajero {
                             
                         case 2: 
                             System.out.println("Retirar Dinero");
+                            retirar_dinero();
                             
                         case 3: 
                             System.out.println("Depositar dinero");
@@ -81,6 +82,9 @@ public class Progracajero {
     double saldo = 1000;
          System.out.println("Saldo disponible: $" + saldo);
     }
+   public static void retirar_dinero(){
+       
+   }
        
    }
     
