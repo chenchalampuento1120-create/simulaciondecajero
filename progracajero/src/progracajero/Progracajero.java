@@ -85,7 +85,9 @@ public class Progracajero {
     }
    // retirar el dinero de la cuenta
    public static void retirar_dinero(){
-       System.out.println("ingrese la cantidad a retirar");
+       System.out.println("ingrese la cantidad a retirar:");
+       double retiro = sc.nextDouble();
+       
        
        
        
