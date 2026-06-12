@@ -4,6 +4,8 @@
  */
 package progracajero;
 
+import java.util.Scanner;
+
 /**
  *
  * @author PC
@@ -15,8 +17,67 @@ public class Progracajero {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("hola");
-        System.out.println("mañana");
+       
+     Scanner sc = new Scanner(System.in);
+        //algoritmo para simular cajero automatico
+        int clave = 1234;
+        int intentos =3;
+        int opc;
+        int intentos_opc = 3;
+        System.out.println("------------------");
+        System.out.println("cajero automatico");
+        System.out.println("-----------------");
+        System.out.println("ingrese su tarjeta: ");
+        System.out.println("tarjeta detectada");
+        System.out.println("ingresa tu clave");
+        while(intentos>0 && intentos <= 3){ 
+            int clave_ingresada = sc.nextInt();
+            if (clave_ingresada == clave) {
+                System.out.println("bienvenido al cajero");
+                System.out.println("selecciona una opción: ");
+                do {
+                    System.out.println("1. consultar saldo");
+                    System.out.println("2. retirar dinero");
+                    System.out.println("3. depositar dinero");
+                    System.out.println("4. salir");
+                    System.out.println("----------------");
+                    System.out.println("Ingrese una Opcion");
+                    System.out.println("-------------------");
+                    opc= sc.nextInt();
+                    switch(opc){
+                        case 1:
+                            System.out.println("Consultar Saldo");
+                            
+                        case 2: 
+                            System.out.println("Retirar Dinero");
+                            
+                        case 3: 
+                            System.out.println("Depositar dinero");
+                            
+                        case 4:
+                            System.out.println("Sistema Cerrado");
+                            break;
+                        default:
+                            intentos_opc --;
+                            System.out.println(intentos_opc);
+                            System.out.println("Ingrese una opcion");
+                    }
+                } while (opc != 4 && intentos_opc >0);
+                break;
+
+            }else{
+                System.out.println("Clave Incorrecta");
+                intentos = intentos -1;
+                System.out.println("Te quedan: "+intentos+" intentos.");
+            }
+        }
+        if (intentos==0){
+            System.out.println("Tarjeta Bloqueada, has superado los 3 intentos");
+        }
     }
+   public static void consultar_saldo(){
+       
+   }
+    
     
 }
