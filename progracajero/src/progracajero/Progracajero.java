@@ -55,6 +55,7 @@ public class Progracajero {
                             
                         case 3: 
                             System.out.println("Depositar dinero");
+                            depositar_dinero();
                             
                         case 4:
                             System.out.println("Sistema Cerrado");
