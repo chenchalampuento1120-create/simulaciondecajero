@@ -88,6 +88,9 @@ public class Progracajero {
        double retiro = sc.nextDouble();
        
        if (retiro > 0 && retiro <= saldo) {
+           saldo -= retiro;
+           System.out.println("retiro realizado :");
+           System.out.println("Saldo actual:$"+saldo);
       
            
        }
