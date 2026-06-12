@@ -76,6 +76,7 @@ public class Progracajero {
             System.out.println("Tarjeta Bloqueada, has superado los 3 intentos");
         }
     }
+    // consultar saldo actual
    public static void consultar_saldo(){
     double saldo = 1000;
          System.out.println("Saldo disponible: $" + saldo);
