@@ -89,6 +89,7 @@ public class Progracajero {
        
        
    }
+   // deposito del dinero
    public static void depositar_dinero(){
        
    }
