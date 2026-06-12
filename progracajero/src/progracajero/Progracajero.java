@@ -11,6 +11,7 @@ import java.util.Scanner;
  * @author PC
  */
 public class Progracajero {
+    static double saldo= 1000;
 
     /**
      * @param args the command line arguments
@@ -80,8 +81,8 @@ public class Progracajero {
     }
     // consultar saldo actual
    public static void consultar_saldo(){
-    double saldo = 1000;
-         System.out.println("Saldo disponible: $" + saldo);
+       System.out.println("============");
+       System.out.println("Saldo disponible: $" + saldo);
     }
    // retirar el dinero de la cuenta
    public static void retirar_dinero(){
