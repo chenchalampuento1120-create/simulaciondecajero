@@ -91,6 +91,8 @@ public class Progracajero {
            saldo -= retiro;
            System.out.println("retiro realizado :");
            System.out.println("Saldo actual:$"+saldo);
+       }else{
+           System.out.println("Saldo insuficiente");
       
            
        }
